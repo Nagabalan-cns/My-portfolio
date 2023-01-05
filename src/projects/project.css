@@ -1,0 +1,42 @@
+
+.project > img{
+    width: 350px;
+    height: 180px;
+}
+
+.project{
+    margin: 15px;
+    width: 350px;
+    height: 180px;
+    transition: 100ms ease-in-out;
+    -webkit-transition: 100ms ;
+    -moz-transition: 100ms ;
+    -ms-transition: 100ms ;
+    -o-transition: 100ms ;
+    
+}
+.project:hover{
+    cursor: pointer;
+    display:flex;
+    background-color:orangered;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.project_container{
+    padding: 15px;
+}
+.project_container > h4 {
+    padding-bottom: 20px;
+}
+
+.project_container > p {
+    padding-bottom: 20px;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}

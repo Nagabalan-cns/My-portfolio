@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Dhurjati&family=Ewert&family=Fanwood+Text:ital@1&family=Grechen+Fuemen&family=Noto+Serif+Khojki:wght@700&family=Passions+Conflict&family=Playfair+Display:ital@1&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Dhurjati&family=Ewert&family=Fanwood+Text:ital@1&family=Grechen+Fuemen&family=Jost:ital,wght@1,300&family=Noto+Serif+Khojki:wght@700&family=Passions+Conflict&family=Playfair+Display:ital@1&family=Shrikhand&display=swap');
+.Skill_container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+    height: 100vh;
+}
+.skill_container_text{
+    color: white;
+    flex:0.4;
+    text-align: left;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.skill_container_text > h2 {
+    font-size: 30px;
+    font-family: Shrikhand;
+}
+
+.skill_container_image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skill_container_image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.skill_container_skillset > h2 {
+    font-family: Jost;
+    font-weight: 300;
+    padding-bottom: 0px;
+    padding-top: 30px;
+   
+
+}   

@@ -1,0 +1,28 @@
+.project_container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+     color:white;
+     height: 120vh;
+    
+}
+.project_container > h1{
+    padding-bottom: 20px;
+
+}
+
+.project_container > p{
+    padding-bottom: 20px;
+}
+
+.project_container_content{
+    display: flex;
+   
+    margin-top:50px;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+
+}

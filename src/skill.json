@@ -1,0 +1,21 @@
+ [{
+    "skill":"React",
+    "value":"80"
+ },
+ {
+    "skill":"Angular",
+    "value":"40"
+ },
+ {
+    "skill":"Html",
+    "value":"70"
+ },
+{
+    "skill":"Css",
+    "value":"40"
+},
+ {
+    "skill":"Javascript",
+    "value":"20"
+ }
+]
